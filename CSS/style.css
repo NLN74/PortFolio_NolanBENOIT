@@ -25,7 +25,7 @@ header {
 }
 header h1 {
   padding-left: 1em;
-  font-size: 25px;
+  font-size: 1.4em;
 }
 header ul {
   display: flex;
@@ -36,30 +36,39 @@ header ul {
 }
 header ul li {
   margin-right: 2em;
-  font-size: 20px;
+  font-size: 1.1em;
 }
 
 section {
   margin-top: 0px;
   padding-top: 4em;
+  background: url("assets/dalle.png");
+  display: flex;
+}
+section img {
+  width: 45%;
+  margin: auto;
+  border-radius: 10px;
+  border: 3px solid white;
+}
+section h3, section h2 {
+  font-weight: 100;
+  font-size: 1.4em;
+}
+section .miniPresentation {
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background: url("assets/dalle.png");
-}
-section img {
-  width: 200px;
+  padding-top: 1em;
+  background-color: rgba(250, 247, 240, 0.8);
+  width: 25%;
   margin: auto;
-  border-radius: 10px;
-}
-section h3, section h2 {
-  font-weight: 100;
 }
 section span {
   margin-top: 0px;
   color: rgb(106, 153, 85);
-  font-size: 20px;
+  font-size: 1.1em;
 }
 
 /*# sourceMappingURL=style.css.map */
